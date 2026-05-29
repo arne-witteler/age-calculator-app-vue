@@ -1,18 +1,23 @@
-<script setup>
+<script setup lang="ts">
+defineProps<{
+  years: number | string;
+  months: number | string;
+  days: number | string;
+}>();
 </script>
 
 <template>
   <ul class="age-calculation__list">
     <li class="age-calculation__item">
-      <p class="age-calculation__value">--</p>
+      <p class="age-calculation__value">{{ years }}</p>
       <p class="age-calculation__label">years</p>
     </li>
     <li class="age-calculation__item">
-      <p class="age-calculation__value">--</p>
+      <p class="age-calculation__value">{{ months }}</p>
       <p class="age-calculation__label">months</p>
     </li>
     <li class="age-calculation__item">
-      <p class="age-calculation__value">--</p>
+      <p class="age-calculation__value">{{ days }}</p>
       <p class="age-calculation__label">days</p>
     </li>
   </ul>

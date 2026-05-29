@@ -1,9 +1,10 @@
 <script setup>
+defineEmits(['click']);
 </script>
 
 <template>
   <div class="divider">
-    <button class="button">
+    <button class="button" @click="$emit('click')">
       <img class="button__icon" src="../../assets/images/icon-arrow.svg" alt="Calculate age" />
     </button>
   </div>
