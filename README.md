@@ -1,38 +1,57 @@
-# age-calculator-app-vue
+# Frontend Mentor - Age calculator app solution
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Recommended IDE Setup
+## Table of contents
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Frontend Mentor - Age calculator app solution](#frontend-mentor---age-calculator-app-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
 
-## Recommended Browser Setup
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Overview
 
-## Customize configuration
+### The challenge
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Users should be able to:
 
-## Project Setup
+- View an age in years, months, and days after submitting a valid date through the form
+- Receive validation errors if:
+  - Any field is empty when the form is submitted
+  - The day number is not between 1-31
+  - The month number is not between 1-12
+  - The year is in the future
+  - The date is invalid e.g. 31/04/1991 (there are 30 days in April)
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+- **Bonus**: See the age numbers animate to their final number when the form is submitted
 
-```sh
-npm install
-```
+### Screenshot
 
-### Compile and Hot-Reload for Development
+![Screenshot](src/assets/images/screenshot.png)
 
-```sh
-npm run dev
-```
 
-### Compile and Minify for Production
+### Links
 
-```sh
-npm run build
-```
+- Solution URL: [Frontend Mentor solution](https://github.com/arne-witteler/age-calculator-app-vue)
+- Live Site URL: [Live demo](https://age-calculator-app-vue.vercel.app)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Mobile-first workflow
+- Vue
+
+## Author
+
+- Frontend Mentor - [@arne-witteler](https://www.frontendmentor.io/profile/arne-witteler)
+
